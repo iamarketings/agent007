@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Security Audit Agent</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'gray-900': '#121212',
+              'gray-800': '#1e1e1e',
+              'gray-700': '#2d2d2d',
+              'gray-400': '#a0a0a0',
+              'cyan': {
+                '400': '#22d3ee',
+                '500': '#06b6d4',
+              },
+              'amber': {
+                 '400': '#fbbd23'
+              }
+            },
+            fontFamily: {
+                mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', "Liberation Mono", "Courier New", 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "http": "https://aistudiocdn.com/http@^0.0.1-security",
+    "fs": "https://aistudiocdn.com/fs@^0.0.1-security",
+    "socket.io": "https://aistudiocdn.com/socket.io@^4.8.1",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "path": "https://aistudiocdn.com/path@^0.12.7",
+    "child_process": "https://aistudiocdn.com/child_process@^1.0.2",
+    "vite": "https://aistudiocdn.com/vite@^7.1.12",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
+    "socket.io-client": "https://aistudiocdn.com/socket.io-client@^4.8.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900 text-gray-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

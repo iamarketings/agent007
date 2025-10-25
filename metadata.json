@@ -1,0 +1,5 @@
+{
+  "name": "AI Security Audit Agent",
+  "description": "An AI-powered security audit agent that orchestrates a selection of tools like sqlmap, Nmap, and Nikto. The agent automatically manages tool installation and provides a cross-platform experience.",
+  "requestFramePermissions": []
+}
